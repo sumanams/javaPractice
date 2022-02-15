@@ -20,6 +20,11 @@ public class Palindrome {
 			System.out.println("Palindrome");
 		}
 		
+		String str="sumana";
+		//System.out.println(str);
+		String str1=String.join("*", str.split(""));
+		System.out.println(str1);
+		
 	}
 
 }
